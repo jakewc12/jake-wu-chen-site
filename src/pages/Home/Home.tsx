@@ -1,5 +1,5 @@
 import { UnderlinedText, Header, BoxContainer, HeaderText, TextContainer, HeaderAndPic, SmallerHeader, Thing } from "../styles";
-import MyImage from './Image (1).jpeg'
+import MyImage from './headshot.png'
 import { Picture } from "../styles";
 import { indigo } from "@mui/material/colors";
 import { TypeAnimation } from 'react-type-animation';

@@ -17,7 +17,7 @@ const PDFViewer = () => {
                 // Setting various property values
                 const alink = document.createElement("a");
                 alink.href = fileURL;
-                alink.download = "Jacob Wu-Chen Resume.pdf";
+                alink.download = "Jacob Wu-Chen Resume.png";
                 alink.click();
             });
         });
