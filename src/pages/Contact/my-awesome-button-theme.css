@@ -1,0 +1,8 @@
+.aws-btn {
+    --button-primary-color: #3f51b5;
+    --button-primary-color-dark: #1360a4;
+    --button-primary-color-light: #ffffff;
+    --button-primary-color-hover: #187bd1;
+    --button-primary-color-active: #166dba;
+    --button-primary-border: none;
+  }
