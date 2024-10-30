@@ -87,15 +87,15 @@ export const EXPERIENCE = [
             [
                 {
                     details: 
-                    'Air Force Research Lab(Rome, NY): AI/ML Intern'
+                    'Air Force Research Lab (Rome, NY): AI/ML Intern'
                 },
                 {
                     details:
-                    'Khoury College of CS(Boston, MA): TA Discrete Math'
+                    'Khoury College of CS (Boston, MA): TA Discrete Math'
                 },
                 {
                     details:
-                    'Hinata Sushi Carryout(Bethesda, MD): Cashier'
+                    'Hinata Sushi Carryout (Bethesda, MD): Cashier'
                 }
             ]
     },
@@ -104,7 +104,7 @@ export const EXPERIENCE = [
         jobs: 
             [
                 {
-                    details: 'NEU Student Government: Software Developer'
+                    details: 'NEU Student Government: Tech Lead, Software Developer'
                 },
                 {
                     details: 'Electric Racing Club: Software Engineer'

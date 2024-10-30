@@ -14,11 +14,12 @@ const Home: React.FC = () => {
                   <Picture src={MyImage} alt ="Bruh" />
                </HeaderText>
                <Header>
-               <TypeAnimation
+                  About Me
+               {/* <TypeAnimation
                   sequence={['About Me',1000,'']}
                   repeat={Infinity}
                   deletionSpeed={5}
-                  />
+                  /> */}
                   </Header>
             </HeaderAndPic>
                <TextContainer>
