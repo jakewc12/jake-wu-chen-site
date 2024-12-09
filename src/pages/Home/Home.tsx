@@ -31,7 +31,7 @@ const Home: React.FC = () => {
                </TextContainer>
                <TextContainer>
                   <h6>
-                     I've spent 4 months as a Co-op at the Air Force innovating new Convolutional Neural Nets using Python/PyTorch. Feel free to ask about my experiences! Outside of CS, I'm interested in golf, indoor rock climbing, going to jazz bars, and traveling internationally. 
+                     I've spent 4 months as a Co-op at the Air Force developing and adapting neural nets as well as other computer vision tools. Feel free to ask about my experiences! Outside of CS, I'm interested in golf, indoor rock climbing, going to jazz bars, and traveling internationally. 
                   </h6>
                </TextContainer>
                <SmallerHeader>

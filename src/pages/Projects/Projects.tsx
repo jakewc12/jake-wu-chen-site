@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useEffect } from "react";
-import { InfoContainer, TextContainer, SkillsTab, BoxContainer, ProjectHeader, ProjectParagraph, ProjectSkillsTab, OtherProjectHeader } from "../styles";
+import { InfoContainer, TextContainer, SkillsTab, BoxContainer, ProjectHeader, ProjectParagraph, ProjectSkillsTab, OtherProjectHeader, BoxImage } from "../styles";
 import { PROJECTS } from "./constants";
 import TextTransition, { presets } from 'react-text-transition';
 
@@ -17,6 +17,7 @@ const Projects: React.FC = () => {
     }, []);
 
    return (
+      
       <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingTop: '5%', paddingBottom:'2.5%', width: '100%', textAlign: 'left' }}>         
             <InfoContainer style={{height:'auto', flexWrap:'wrap'}}>
                <TextContainer style={{height:'80px'}}>
@@ -31,26 +32,30 @@ const Projects: React.FC = () => {
                <SkillsTab style={{paddingTop:'2.5%', gap:'20px', paddingBottom:'5%'}}>
                {
                   PROJECTS.map((menu)=> (
-                     <a href={menu.link} style={{width:'100%', paddingTop:'2.5%'}}>
-                        <BoxContainer style={{backgroundColor:'#fafafa', width:'80%'}}>
-                           <OtherProjectHeader> 
-                              {menu.title}
-                           </OtherProjectHeader>
-                           <ProjectParagraph style={{fontSize:'70%'}}>
-                              {menu.description}
-                           </ProjectParagraph>
-                           <SkillsTab style={{gap:'5px'}}>
-                              {
-                                 menu.skills.map((skill)=> (
-                                    <ProjectSkillsTab>
-                                       {skill.name}
-                                    </ProjectSkillsTab>
-                                 ))
-                              }
-                           </SkillsTab>
-                        </BoxContainer>
-                     </a>
-                  ))
+                        <a href={menu.link} style={{width:'100%', paddingTop:'2.5%'}}>
+                           <BoxContainer style={{backgroundColor:'#fafafa', width:'80%', display: 'flex', alignItems: 'center'}}>
+                              <OtherProjectHeader> 
+                                 {menu.title}
+                              </OtherProjectHeader>
+                              <ProjectParagraph style={{fontSize:'70%'}}>
+                                 {menu.description}
+                              </ProjectParagraph>
+                              {menu.image && <BoxImage src={menu.image} alt='' style={{marginLeft: '20px', maxWidth: '200px', height: 'auto'}} />}
+                              <SkillsTab style={{gap:'3px'}}>
+                                 {
+                                    menu.skills.map((skill)=> (
+                                       <ProjectSkillsTab>
+                                          {skill.name}
+                                       </ProjectSkillsTab>
+                                    ))
+                                 }
+                              </SkillsTab>
+                           </BoxContainer>
+                        </a>
+                     //{ menu.image && <BoxImage src={menu.image} alt='' /> }
+                  )
+                  
+               )
                }
                </SkillsTab>
             </InfoContainer>

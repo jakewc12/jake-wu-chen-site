@@ -133,10 +133,16 @@ export const FormInput = styled(TextField)(() => ({
     backgroundColor: blueGrey[50], 
     boxSizing:'border-box',
     flexDirection: 'row', 
-    width:'auto', 
+    width:'15%', 
     height:'4vh', 
     alignItems:'center', 
     justifyContent:'center', 
     paddingLeft:'6px', 
     paddingRight:'6px'
+}))
+
+export const BoxImage = styled.img(()=> ({
+    width: '250px',         // Set the width to 150px (adjust as needed)
+    height: 'auto',
+    objectFit: 'contain'
 }))
