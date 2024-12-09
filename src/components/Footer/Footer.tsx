@@ -13,6 +13,7 @@ const Footer: React.FC = () => {
     return (
       <div style={{flexShrink: 0}}>
         <MDBFooter className='text-center text-white' style={{ backgroundColor: blueGrey[50] }}>
+        
           <MDBContainer className='pt-4'>
             <section className='mb-4'>
               <MDBBtn
@@ -52,6 +53,9 @@ const Footer: React.FC = () => {
               </MDBBtn>
             </section>
           </MDBContainer>
+          <div style={{paddingBottom:'2%', color:'black', fontSize:'80%'}}>
+          (c) 2024 Jacob Wu-Chen
+          </div>
         </MDBFooter>
         </div>
       );
