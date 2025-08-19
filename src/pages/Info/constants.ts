@@ -85,6 +85,10 @@ export const EXPERIENCE = [
         name: 'Work:',
         jobs:
             [
+		{
+		    details:
+		    'MORSE Corp (Cambridge, MA): Python Software Engineer Co-Op'
+		},
                 {
                     details: 
                     'Air Force Research Lab (Rome, NY): AI/ML Intern'
