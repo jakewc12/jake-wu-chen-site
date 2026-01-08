@@ -24,14 +24,14 @@ const Home: React.FC = () => {
             </HeaderAndPic>
                <TextContainer>
                   <h6>
-                     Hello! My name is Jacob Wu-Chen and I'm a third year undergrad Computer Science student at  {"\t"}
+                     Hello! My name is Jacob Wu-Chen and I'm a fourth year undergrad Computer Science student at  {"\t"}
                      <UnderlinedText href="https://www.northeastern.edu/" style={{color: indigo[500], fontWeight:'bold'}}>Northeastern University</UnderlinedText>. I have a passion for full-stack development as well as artifical intelligence. Further details on my skills and experience can be viewed <UnderlinedText href={'/info'} style={{color:indigo[500], fontWeight:'bold'}}>here</UnderlinedText>. 
                      
                   </h6>
                </TextContainer>
                <TextContainer>
                   <h6>
-                     I've spent 4 months as a Co-op at the Air Force developing and adapting neural nets as well as other computer vision tools. Feel free to ask about my experiences! Outside of CS, I'm interested in golf, indoor rock climbing, going to jazz bars, and traveling internationally. 
+                     I've spent time as a Co-op at both the Air Force and MORSE Corp. I spent time focusing on full-stack development as well as computer vision during both of these Co-ops. Feel free to ask about my experiences! Outside of CS, I'm interested in golf, indoor rock climbing, going to jazz bars, and traveling internationally. 
                   </h6>
                </TextContainer>
                <SmallerHeader>

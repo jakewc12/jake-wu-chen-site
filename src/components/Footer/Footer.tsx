@@ -54,7 +54,7 @@ const Footer: React.FC = () => {
             </section>
           </MDBContainer>
           <div style={{paddingBottom:'2%', color:'black', fontSize:'80%'}}>
-          (c) 2024 Jacob Wu-Chen
+          (c) 2025 Jacob Wu-Chen
           </div>
         </MDBFooter>
         </div>
