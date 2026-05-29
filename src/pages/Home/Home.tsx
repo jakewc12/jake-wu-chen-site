@@ -2,7 +2,6 @@ import { UnderlinedText, Header, BoxContainer, HeaderText, TextContainer, Header
 import MyImage from './headshot.png'
 import { Picture } from "../styles";
 import { indigo } from "@mui/material/colors";
-import { TypeAnimation } from 'react-type-animation';
 
 const Home: React.FC = () => {
    return (
@@ -15,16 +14,11 @@ const Home: React.FC = () => {
                </HeaderText>
                <Header>
                   About Me
-               {/* <TypeAnimation
-                  sequence={['About Me',1000,'']}
-                  repeat={Infinity}
-                  deletionSpeed={5}
-                  /> */}
                   </Header>
             </HeaderAndPic>
                <TextContainer>
                   <h6>
-                     Hello! My name is Jacob Wu-Chen and I'm a fourth year undergrad Computer Science student at  {"\t"}
+                     Hello! My name is Jacob Wu-Chen and I'm a recently graduated Computer Science major from  {"\t"}
                      <UnderlinedText href="https://www.northeastern.edu/" style={{color: indigo[500], fontWeight:'bold'}}>Northeastern University</UnderlinedText>. I have a passion for full-stack development as well as artifical intelligence. Further details on my skills and experience can be viewed <UnderlinedText href={'/info'} style={{color:indigo[500], fontWeight:'bold'}}>here</UnderlinedText>. 
                      
                   </h6>

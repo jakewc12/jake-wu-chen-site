@@ -35,7 +35,11 @@ const Info: React.FC = () => {
             </InfoContainer>
          </InformationContainer>
          
-
+         <InformationContainer>
+            <InfoContainer>
+               <PDFViewer/>
+            </InfoContainer>
+         </InformationContainer>
          
          <InformationContainer>
             <InfoContainer style={{height:'auto', flexWrap:'wrap',}}>
@@ -57,9 +61,7 @@ const Info: React.FC = () => {
             </InfoContainer>
          </InformationContainer>
 
-         <InfoContainer style={{width:'20%'}}>
-         <PDFViewer/>
-            </InfoContainer>
+         
        </div>
     );
    };

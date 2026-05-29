@@ -4,6 +4,24 @@ import SGA from './Images/sga.png'
 // TODO: Shorten desc, limit skills to 4 or 5, add images
 export const PROJECTS = [
     {
+        title: 'Proviras',
+        description: 'Proviras is my startup, a platform that helps agent teams cut their LLM costs without sacrificing quality. Proviras drops into an agent flow via SDK, captures every LLM call, and shadow-tests smaller models against real production traffic to identify where teams can safely downgrade.',
+        skills: [
+            {
+                name: 'LangGraph',
+            },
+            {
+                name: 'npm',
+            },
+            {
+                name: 'PyPl',
+            },
+            {
+                name: 'NextJS'
+            }
+        ]
+    },
+    {
         title: 'SGA Senate Nomination and Application',
         description: 'As project lead, I helped my engineers build the tool for Northeastern students to apply to become SGA represenatatives. We used React, NestJS, and Supabase to create a simple, user-friendly platform for both admin and users.',
         image: SGA,
