@@ -1,10 +1,15 @@
 import { render } from '@testing-library/react';
+import { MemoryRouter } from 'react-router-dom';
 
 import Home from './Home';
 
 describe('<Home />', () => {
   it('should render the Home page', () => {
-    const { container } = render(<Home />);
+    const { container } = render(
+      <MemoryRouter>
+        <Home />
+      </MemoryRouter>
+    );
 
     expect(container).toBeDefined();
   });
