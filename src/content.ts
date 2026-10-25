@@ -1,7 +1,5 @@
 import Resume from './components/PDFViewer/Jacob_Wu_Chen_Resume_10.21.26_.pdf';
 import SGAImage from './pages/Projects/Images/sga.png';
-import NEUDormImage from './pages/Projects/Images/neudorm.png';
-import ReversiImage from './pages/Projects/Images/reversi.png';
 
 export const RESUME_URL = Resume;
 
@@ -60,7 +58,7 @@ export const PROJECTS: Project[] = [
     description:
       'The platform Northeastern students use to nominate and apply to become SGA senators. I led a team of 5 engineers building it, and it now has 300+ active users. Role-based access gives admins a dashboard for reviewing submissions, and Docker pipelines deploy it consistently across environments.',
     stack: ['TypeScript', 'React', 'NestJS', 'Supabase', 'Docker'],
-    image: SGAImage,
+    // image: SGAImage,
     links: [],
   },
   {
@@ -79,32 +77,14 @@ export const PROJECTS: Project[] = [
     stack: ['Python', 'React', 'Flask', 'scikit-learn'],
     links: [{ label: 'Repo', href: 'https://github.com/jakewc12/Medipredictor-AI' }],
   },
-  {
-    kind: 'full-stack · deployed',
-    title: 'NEUDorms',
-    description:
-      'A site where Northeastern students review on-campus housing so others can judge it fairly. It runs on a Flask REST API backed by MySQL on AWS RDS, and it collected dozens of real user reviews while it was live.',
-    stack: ['Python', 'Flask', 'MySQL', 'AWS RDS'],
-    image: NEUDormImage,
-    links: [{ label: 'Live site', href: 'https://neudorms.com/' }],
-  },
-  {
-    kind: 'object-oriented design',
-    title: 'Reversi',
-    description:
-      'A two-player Reversi game packaged as a runnable JAR. It is built around Model-View-Controller and abstraction, and a thorough JUnit test suite covers it.',
-    stack: ['Java', 'Swing', 'JUnit 5', 'MVC'],
-    image: ReversiImage,
-    links: [{ label: 'Repo', href: 'https://github.com/jakewc12/Reversi' }],
-  },
 ];
 
 export const EXPERIENCE = [
   {
     when: 'Jun 2026 – present',
-    role: 'Full-Stack Engineer Co-op',
+    role: 'Forward Deployed Engineer',
     company: 'MORSE Corp',
-    desc: 'Built and maintained full-stack applications and services addressing operational challenges across the U.S. national security ecosystem}',
+    desc: 'Built and maintained full-stack applications and services addressing operational challenges across the U.S. national security ecosystem',
     stack: ['Python', 'FastAPI', 'React', 'Docker'],
   },
   {
@@ -143,5 +123,5 @@ export const SKILLS = [
     group: 'Frameworks',
     items: ['React', 'Next.js', 'FastAPI', 'Flask', 'NestJS', 'PyTorch', 'NumPy', 'Playwright', 'Vitest', 'PyTest'],
   },
-  { group: 'Tools', items: ['Git', 'AWS (EC2, Lambda)', 'Docker', 'Supabase', 'Vercel', 'Conda', 'Linux'] },
+  { group: 'Tools', items: ['Git', 'AWS', 'Opencode', 'Docker', 'Supabase', 'Vercel', 'Conda', 'Linux'] },
 ];

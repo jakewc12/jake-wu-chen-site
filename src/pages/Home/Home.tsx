@@ -172,7 +172,7 @@ const Home: React.FC = () => {
       <section className="sec" id="projects">
         <div className="wrap">
           <SectionHead no="02" title="Projects" />
-          <div className="grid3">
+          <div className="grid2">
             {PROJECTS.filter((p) => p.image).map((project) => (
               <ProjectCard key={project.title} project={project} />
             ))}
